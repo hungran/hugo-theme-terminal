@@ -5,9 +5,14 @@
         <span>{{ $.Site.Copyright | safeHTML }}</span>
     {{ else }}
       <div class="copyright">
-        <span>© {{ now.Year }} Powered by <a href="me@hungran.cloud">Hungran</a></span>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- <i class="fa fa-github"></i> -->
+        <span>© {{ now.Year }} 🧑‍💻 SRE, DevOps, ☁️ Cloud and 🛫 Life
+        | Powered by  <a href="mailto:me@hungran.cloud">HUNGRAN</a> 
+          <a href="https://github.com/hungran"><i class="fa fa-github" style="font-size:24px"></i></a>
+          <a href="https://www.linkedin.com/in/hungran91/"><i class="fa fa-linkedin-square" style="font-size:24px"></i></a>
+        </span>
     {{ end }}
-        <span>:: .🧑‍💻 SRE, DevOps, ☁️ Cloud and 🛫 Life  <a href="https://blog.hungran.cloud">Hungran</a></span>
       </div>
   </div>
 </footer>
